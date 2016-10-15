@@ -1,4 +1,32 @@
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+h2{
+	color: rgb(121,29,30);
+}
+h1{
+  font-size: 80px;
+  font-family: tahoma;
+  text-align: center;
+}
+body{
+  margin: 0px;
+}
+#navbar{
+	text-align: right;
+	color:white;
+	background-color: black;
+}
 nav a
 {
-	color: green;
+	color:white;
+}
+#navbar a:hover{
+	transition: 0.15s;
+	background-color: rgba(0,0,0,0.4);
+}
+li {
+	float: right;
 }

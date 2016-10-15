@@ -22,7 +22,7 @@ body{
 #navbar{
 	text-align: right;
 	margin: auto;
-	color:white;
+	color: gray;
 	background-color: black;
 }
 nav a
@@ -31,8 +31,14 @@ nav a
 }
 #navbar a:hover{
 	transition: 0.15s;
-	background-color: rgba(0,0,0,0.4);
+	color: black;
+	background-color: white;
+	text-decoration: none;
 }
 li {
 	float: right;
+}
+.row
+{
+	margin: auto;
 }

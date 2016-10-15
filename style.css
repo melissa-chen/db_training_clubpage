@@ -2,6 +2,8 @@
 img {
     display: block;
     margin: 0 auto;
+    max-width: 90%;
+	max-height: 90%;
 }
 h2{
 	color: rgb(121,29,30);
@@ -16,6 +18,7 @@ body{
 }
 #navbar{
 	text-align: right;
+	margin: auto;
 	color:white;
 	background-color: black;
 }
